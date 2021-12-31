@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "JNC設備歷史資料下載軟體/1.0.0": {
+        "dependencies": {
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1000",
+          "MicrosoftOfficeCore": "15.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "JNC設備歷史資料下載軟體.dll": {}
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
+        "runtime": {
+          "lib/net20/Microsoft.Office.Interop.Excel.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4795.1000"
+          }
+        }
+      },
+      "MicrosoftOfficeCore/15.0.0": {
+        "runtime": {
+          "lib/net35/Office.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4420.1017"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JNC設備歷史資料下載軟體/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Office.Interop.Excel/15.0.4795.1000": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DfceS96ustwfL8EOJNNRtpk6b0RylhjNpgeeemuvi9X4GYks2UTeAimjSrdFEfuqRo5ibZ4Sd0gJIeDr9gMa6Q==",
+      "path": "microsoft.office.interop.excel/15.0.4795.1000",
+      "hashPath": "microsoft.office.interop.excel.15.0.4795.1000.nupkg.sha512"
+    },
+    "MicrosoftOfficeCore/15.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/KgYw8uvv0Ut8FPvyEa1XJ/TrLSRgvTv3JgC2IT0/8NwoICzbEJWfmfwsE6Dwi8WH0jVkTEO7zRvGvaKqUOhqQ==",
+      "path": "microsoftofficecore/15.0.0",
+      "hashPath": "microsoftofficecore.15.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    }
+  }
+}
